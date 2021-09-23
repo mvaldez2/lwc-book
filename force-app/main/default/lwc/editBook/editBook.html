@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="Edit Book" >
+        <lightning-record-edit-form 
+        object-api-name={objectName}
+        record-id={recordId}
+        onsuccess={successHandler}
+        class="clear"
+        >
+        <lightning-messages></lightning-messages>
+        <lightning-combobox
+        name="Book"
+        label="Book"
+        value={value}
+        placeholder="Select Book"
+        options={bookOptions}
+        onchange={handleChange} ></lightning-combobox>
+        {selectedBook}
+    <lightning-input-field field-name={fields.title}></lightning-input-field>
+    <lightning-input-field field-name={fields.author}></lightning-input-field>
+    <lightning-input-field field-name={fields.year}></lightning-input-field>
+    <lightning-input-field field-name={fields.publisher}></lightning-input-field>
+    <lightning-input-field field-name={fields.cost}></lightning-input-field>
+    <lightning-button class="slds-m-around_xx-small" label="cancel"></lightning-button>
+    <lightning-button variant="brand" type="submit" class="slds-m-around_xx-small" label="Save"></lightning-button>
+    </lightning-record-edit-form>
+    </lightning-card>
+</template>

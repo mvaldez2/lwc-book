@@ -1,0 +1,29 @@
+<template>
+    <lightning-card title="Add a book!">
+        <div class="slds-p-around_medium">
+            <form class="createForm">
+                <lightning-input label="Title" name="Title__c"
+                 onchange={changeHandler} class="slds-m-bottom_x-small"></lightning-input>
+                 <lightning-input label="Author" name="Author__c"
+                 onchange={changeHandler} class="slds-m-bottom_x-small"></lightning-input>
+                 <lightning-input label="Year" name="Year__c"
+                 onchange={changeHandler} class="slds-m-bottom_x-small"></lightning-input>
+                 <lightning-input label="Publisher" name="Publisher__c"
+                 onchange={changeHandler} class="slds-m-bottom_x-small"></lightning-input>
+                 <lightning-input label="Cost" name="Cost__c"
+                 onchange={changeHandler} class="slds-m-bottom_x-small"></lightning-input>
+                 <lightning-button label="Create Book" variant="brand" onclick={createBook}></lightning-button>
+            </form>
+        </div>
+
+        <template if:true={books.data}>
+            <template for:each={books.data} for:item="book">
+                <p key={book.Id}>{book.Title__c}</p>
+            </template>
+        </template>
+    </lightning-card>
+
+    
+
+    
+</template>
