@@ -6,23 +6,24 @@ Below are screenshots of the project
 ### Add a book with apex action flow
 ![Flow](https://raw.githubusercontent.com/mvaldez2/lwc-book/master/add_flow.png)
 
-Screen
+
+#### Screen
 ![Screen](https://raw.githubusercontent.com/mvaldez2/lwc-book/master/screen.png)
 
-Assignment
+#### Assignment
 ![Assignment](https://raw.githubusercontent.com/mvaldez2/lwc-book/master/assign.png)
 
-Edit a book with flows
+### Edit a book with flows
 ![Screen](https://raw.githubusercontent.com/mvaldez2/lwc-book/master/edit_flow.png)
 
-Record Choice Set
+#### Record Choice Set
 ![Screen](https://raw.githubusercontent.com/mvaldez2/lwc-book/master/set.png)
 
-Screens
+#### Screens
 ![Screen](https://raw.githubusercontent.com/mvaldez2/lwc-book/master/screen1.png)
 ![Screen](https://raw.githubusercontent.com/mvaldez2/lwc-book/master/screen2.png)
 
-Assignment
+#### Assignment
 ![Screen](https://raw.githubusercontent.com/mvaldez2/lwc-book/master/assign_edit.png)
 
 ## Adding and editing a book
